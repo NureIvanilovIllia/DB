@@ -1,5 +1,5 @@
 {
-    "users": [
+    "usersI": [
         {
             "id": "58d4",
             "name": "Ілля Іванілов",
@@ -37,7 +37,7 @@
             "password": "123"
         }
     ],
-    "memberships": [
+    "membershipsI": [
         {
             "id": 1,
             "membership_name": "Individual Membership",
@@ -57,7 +57,7 @@
             "type": "group"
         }
     ],
-    "trainings": [
+    "trainingsI": [
         {
             "id": 1,
             "capacity": 20,
@@ -90,5 +90,446 @@
             "end_time": "17:30",
             "user_id": ["aa09", "7812", "f9d2"]
         }
-    ]
+    ],
+    "IO": [
+    ],
+    "usersN": [
+    {
+      "id": 1,
+      "username": "nikita",
+      "user_email": "nikita.horshcharuk@nure.ua",
+      "password": "$2a$10$QECc0jXDt2cgq/.zdxElm.pofo5R/qOAj4MlgQmg498rQVrZgASsm",
+      "user_first_name": "Nikita",
+      "user_last_name": "Horshcharuk",
+      "user_phone": "+380671969790",
+      "user_dob": "2006-05-04"
+    }
+  ],
+  "personal_user_dataN": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "goal_id": 1,
+      "weight_kg": 73,
+      "height_cm": 183,
+      "age": 19,
+      "gender": "male",
+      "activity_level": "low"
+    }
+  ],
+  "program_goalsN": [
+    {
+      "id": 1,
+      "goal_type": "weightLoss",
+      "description": "Decrease weight"
+    }
+  ],
+  "exercisesN": [
+    {
+      "id": 1,
+      "workout_program_id": 1,
+      "exercise_id": 1,
+      "name": "Running",
+      "duration": 20,
+      "burned_calories": 200
+    },
+    {
+      "id": 2,
+      "workout_program_id": 1,
+      "exercise_id": 2,
+      "name": "Jumping Jacks",
+      "duration": 10,
+      "burned_calories": 100
+    },
+    {
+      "id": 3,
+      "workout_program_id": 2,
+      "exercise_id": 3,
+      "name": "Push-ups",
+      "duration": 10,
+      "burned_calories": 50
+    },
+    {
+      "id": 4,
+      "workout_program_id": 2,
+      "exercise_id": 4,
+      "name": "Squats",
+      "duration": 15,
+      "burned_calories": 80
+    },
+    {
+      "id": 5,
+      "workout_program_id": 3,
+      "exercise_id": 5,
+      "name": "Downward Dog",
+      "duration": 15,
+      "burned_calories": 40
+    },
+    {
+      "id": 6,
+      "workout_program_id": 3,
+      "exercise_id": 6,
+      "name": "Sun Salutation",
+      "duration": 20,
+      "burned_calories": 60
+    },
+    {
+      "id": 7,
+      "workout_program_id": 4,
+      "exercise_id": 7,
+      "name": "Burpees",
+      "duration": 10,
+      "burned_calories": 120
+    },
+    {
+      "id": 8,
+      "workout_program_id": 4,
+      "exercise_id": 8,
+      "name": "Mountain Climbers",
+      "duration": 10,
+      "burned_calories": 110
+    },
+    {
+      "id": 9,
+      "workout_program_id": 5,
+      "exercise_id": 9,
+      "name": "Forward Bend",
+      "duration": 15,
+      "burned_calories": 30
+    },
+    {
+      "id": 10,
+      "workout_program_id": 5,
+      "exercise_id": 10,
+      "name": "Cat-Cow Stretch",
+      "duration": 15,
+      "burned_calories": 20
+    },
+    {
+      "id": 11,
+      "workout_program_id": 6,
+      "exercise_id": 11,
+      "name": "Plank",
+      "duration": 20,
+      "burned_calories": 60
+    },
+    {
+      "id": 12,
+      "workout_program_id": 6,
+      "exercise_id": 12,
+      "name": "Leg Raises",
+      "duration": 15,
+      "burned_calories": 70
+    },
+    {
+      "id": 13,
+      "workout_program_id": 7,
+      "exercise_id": 13,
+      "name": "Jab",
+      "duration": 10,
+      "burned_calories": 70
+    },
+    {
+      "id": 14,
+      "workout_program_id": 7,
+      "exercise_id": 14,
+      "name": "Cross",
+      "duration": 10,
+      "burned_calories": 90
+    },
+    {
+      "id": 15,
+      "workout_program_id": 8,
+      "exercise_id": 15,
+      "name": "Jump Squats",
+      "duration": 10,
+      "burned_calories": 110
+    },
+    {
+      "id": 16,
+      "workout_program_id": 8,
+      "exercise_id": 16,
+      "name": "Burpees",
+      "duration": 10,
+      "burned_calories": 120
+    }
+  ],
+  "workout_programsN": [
+    {
+      "id": 1,
+      "workout_training_id": 1,
+      "program_name": "Morning Cardio",
+      "trainer_id": 1,
+      "goalId": 1,
+      "duration": 30,
+      "program_type": "Cardio",
+      "icon": "directions_run"
+    },
+    {
+      "id": 2,
+      "workout_training_id": 2,
+      "program_name": "Strength Training",
+      "trainer_id": 1,
+      "goalId": 2,
+      "duration": 45,
+      "program_type": "Strength",
+      "icon": "fitness_center"
+    },
+    {
+      "id": 3,
+      "workout_training_id": 3,
+      "program_name": "Evening Yoga",
+      "trainer_id": 2,
+      "goalId": 3,
+      "duration": 60,
+      "program_type": "Yoga",
+      "icon": "self_improvement"
+    },
+    {
+      "id": 4,
+      "workout_training_id": 4,
+      "program_name": "Functional HIIT",
+      "trainer_id": 2,
+      "goalId": 4,
+      "duration": 30,
+      "program_type": "HIIT",
+      "icon": "sports"
+    },
+    {
+      "id": 5,
+      "workout_training_id": 5,
+      "program_name": "Stretching & Flexibility",
+      "trainer_id": 3,
+      "goalId": 5,
+      "duration": 45,
+      "program_type": "Stretching",
+      "icon": "self_improvement"
+    },
+    {
+      "id": 6,
+      "workout_training_id": 6,
+      "program_name": "Pilates Core",
+      "trainer_id": 3,
+      "goalId": 6,
+      "duration": 50,
+      "program_type": "Pilates",
+      "icon": "fitness_center"
+    },
+    {
+      "id": 7,
+      "workout_training_id": 7,
+      "program_name": "Boxing Basics",
+      "trainer_id": 4,
+      "goalId": 7,
+      "duration": 40,
+      "program_type": "Boxing",
+      "icon": "sports_martial_arts"
+    },
+    {
+      "id": 8,
+      "workout_training_id": 8,
+      "program_name": "Tabata Blast",
+      "trainer_id": 4,
+      "goalId": 8,
+      "duration": 30,
+      "program_type": "HIIT",
+      "icon": "sports"
+    }
+  ],
+  "trainersN": [
+    {
+      "id": 1,
+      "trainer_id": 1,
+      "trainer_first_name": "Anna",
+      "trainer_last_name": "Ivanova",
+      "trainer_phone": "123-456-7890",
+      "trainer_experience": 5,
+      "trainer_email": "anna.ivanova@example.com",
+      "trainer_username": "anna123"
+    },
+    {
+      "id": 2,
+      "trainer_id": 2,
+      "trainer_first_name": "Ivan",
+      "trainer_last_name": "Smirnov",
+      "trainer_phone": "234-567-8901",
+      "trainer_experience": 6,
+      "trainer_email": "ivan.smirnov@example.com",
+      "trainer_username": "ivan456"
+    },
+    {
+      "id": 3,
+      "trainer_id": 3,
+      "trainer_first_name": "Olga",
+      "trainer_last_name": "Petrova",
+      "trainer_phone": "345-678-9012",
+      "trainer_experience": 7,
+      "trainer_email": "olga.petrova@example.com",
+      "trainer_username": "olga789"
+    },
+    {
+      "id": 4,
+      "trainer_id": 4,
+      "trainer_first_name": "Max",
+      "trainer_last_name": "Kravtsov",
+      "trainer_phone": "456-789-0123",
+      "trainer_experience": 8,
+      "trainer_email": "max.kravtsov@example.com",
+      "trainer_username": "max123"
+    }
+  ],
+  "trainingsN": [
+    {
+      "id": 1,
+      "specialization_name": "Leg Day",
+      "date_of_day": "2025-05-28",
+      "start_time": "09:30",
+      "end_time": "10:30",
+      "trainer_first_name": "Anna"
+    },
+    {
+      "id": 2,
+      "specialization_name": "Cardio",
+      "date_of_day": "2025-05-29",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "trainer_first_name": "Mike"
+    },
+    {
+      "id": 3,
+      "specialization_name": "Upper Body",
+      "date_of_day": "2025-05-30",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "trainer_first_name": "Sara"
+    },
+    {
+      "id": 4,
+      "specialization_name": "Stretching",
+      "date_of_day": "2025-05-30",
+      "start_time": "13:15",
+      "end_time": "14:00",
+      "trainer_first_name": "Leo"
+    }
+  ],
+  "userMealsN": [
+    {
+      "type": "breakfast",
+      "calories": 12,
+      "created_time": "2025-06-05",
+      "id": 1
+    },
+    {
+      "type": "lunch",
+      "calories": 4343,
+      "created_time": "2025-06-05",
+      "id": 2
+    }
+  ],
+  "userTargetCalculationsN": [
+    {
+      "id": 1,
+      "user_target_calculation_id": 777,
+      "user_id": 123456,
+      "calculated_normal_calories": 1800,
+      "calculated_weight": 48,
+      "calculated_target_date": "2024-07-14"
+    },
+    {
+      "id": 2,
+      "user_target_calculation_id": 776,
+      "user_id": 123456,
+      "calculated_normal_calories": 2200,
+      "calculated_weight": 49.6,
+      "calculated_target_date": "2024-06-09"
+    },
+    {
+      "id": 3,
+      "user_target_calculation_id": 775,
+      "user_id": 123456,
+      "calculated_normal_calories": 2450,
+      "calculated_weight": 50,
+      "calculated_target_date": "2024-06-01"
+    },
+    {
+      "id": 4,
+      "user_target_calculation_id": 12,
+      "user_id": 123456,
+      "calculated_normal_calories": 2333,
+      "calculated_weight": 46,
+      "calculated_target_date": "2024-09-09"
+    },
+    {
+      "id": 5,
+      "user_target_calculation_id": 4324,
+      "user_id": 123456,
+      "calculated_normal_calories": 4555,
+      "calculated_weight": 40,
+      "calculated_target_date": "2024-04-01"
+    },
+    {
+      "id": 6,
+      "user_target_calculation_id": 777,
+      "user_id": 123456,
+      "calculated_normal_calories": 1800,
+      "calculated_weight": 48,
+      "calculated_target_date": "2023-02-14"
+    },
+    {
+      "id": 7,
+      "user_target_calculation_id": 776,
+      "user_id": 123456,
+      "calculated_normal_calories": 2200,
+      "calculated_weight": 49.6,
+      "calculated_target_date": "2025-05-09"
+    },
+    {
+      "id": 8,
+      "user_target_calculation_id": 775,
+      "user_id": 123456,
+      "calculated_normal_calories": 2450,
+      "calculated_weight": 50,
+      "calculated_target_date": "2022-06-01"
+    },
+    {
+      "id": 9,
+      "user_target_calculation_id": 12,
+      "user_id": 123456,
+      "calculated_normal_calories": 2333,
+      "calculated_weight": 46,
+      "calculated_target_date": "2025-03-09"
+    },
+    {
+      "id": 10,
+      "user_target_calculation_id": 4324,
+      "user_id": 123456,
+      "calculated_normal_calories": 4555,
+      "calculated_weight": 40,
+      "calculated_target_date": "2024-02-05"
+    }
+  ],
+  "membershipsN": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "membership_name": "FDSFSD",
+      "membership_description": "Access to gym and unlimited group classes",
+      "membership_price": 129,
+      "membership_type": "gym",
+      "type": "group",
+      "start_date": "2025-05-01",
+      "end_date": "2025-06-20"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "membership_name": "Premium Membership",
+      "membership_description": "Access to gym and unlimited group classes",
+      "membership_price": 129,
+      "membership_type": "gym",
+      "type": "group",
+      "start_date": "2025-05-01",
+      "end_date": "2025-06-30"
+    }
+  ]
 }
