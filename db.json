@@ -1,5 +1,5 @@
 {
-    "users": [
+    "usersI": [
         {
             "id": "58d4",
             "name": "Ілля Іванілов",
@@ -37,7 +37,7 @@
             "password": "123"
         }
     ],
-    "memberships": [
+    "membershipsI": [
         {
             "id": 1,
             "membership_name": "Individual Membership",
