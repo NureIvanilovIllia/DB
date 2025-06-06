@@ -1,10 +1,108 @@
 {
-    "name": "json-server-api",
-    "version": "1.0.0",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "json-server": "^0.17.3"
-    }
+    "users": [
+        {
+            "id": "58d4",
+            "name": "Ілля Іванілов",
+            "email": "ivanilovila1@gmail.com",
+            "provider": "google"
+        },
+        {
+            "id": "aa09",
+            "name": "illia",
+            "email": "iirnfernf@gmail.com",
+            "password": "ivan"
+        },
+        {
+            "id": "7812",
+            "firstname": "Ilya",
+            "lastname": "ivainin",
+            "birthday": "2014-01-09",
+            "email": "iubrv@gmail.com",
+            "password": "ivam"
+        },
+        {
+            "id": "f9d2",
+            "firstname": "ilay",
+            "lastname": "ioibver",
+            "birthday": "2025-06-05",
+            "email": "ilya@gmail.com",
+            "password": "ivan"
+        },
+        {
+            "id": "3d4a",
+            "firstname": "dojbnwec",
+            "lastname": "f9uweh",
+            "birthday": "2025-06-05",
+            "email": "owbe@gmail.com",
+            "password": "123"
+        }
+    ],
+    "memberships": [
+        {
+            "id": 1,
+            "membership_name": "Individual Membership",
+            "membership_description": "Access to gym and unlimited group classes",
+            "membership_price": 129,
+            "membership_type": "gym",
+            "count_of_training": 10,
+            "type": "group"
+        },
+        {
+            "id": 2,
+            "membership_name": "Premium Membership",
+            "membership_description": "Access to gym and unlimited group classes",
+            "membership_price": 145,
+            "membership_type": "gym",
+            "count_of_training": 15,
+            "type": "group"
+        }
+    ],
+    "trainings": [
+        {
+            "id": 1,
+            "capacity": 20,
+            "date_of_day": "2025-06-06",
+            "start_time": "09:00",
+            "end_time": "10:30",
+            "user_id": [
+                "58d4",
+                "aa09"
+            ]
+        },
+        {
+            "id": 2,
+            "capacity": 15,
+            "date_of_day": "2025-06-06",
+            "start_time": "14:00",
+            "end_time": "15:30",
+            "user_id": [
+                "7812",
+                "f9d2",
+                "3d4a"
+            ]
+        },
+        {
+            "id": 3,
+            "capacity": 25,
+            "date_of_day": "2025-06-05",
+            "start_time": "10:00",
+            "end_time": "11:30",
+            "user_id": [
+                "58d4",
+                "3d4a"
+            ]
+        },
+        {
+            "id": 4,
+            "capacity": 18,
+            "date_of_day": "2025-06-06",
+            "start_time": "16:00",
+            "end_time": "17:30",
+            "user_id": [
+                "aa09",
+                "7812",
+                "f9d2"
+            ]
+        }
+    ]
 }
