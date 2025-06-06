@@ -207,7 +207,6 @@ app.put('/userTargetCalculations/update-last', (req, res) => {
   res.json(updatedCalc);
 });
 
-
 // ====== Получение всех gym membership booking пользователя =======
 app.get('/gym_membership_booking/me', (req, res) => {
   const userId = getUserIdFromToken(req);
