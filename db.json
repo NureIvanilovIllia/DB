@@ -42,16 +42,16 @@
             "id": 1,
             "membership_name": "Individual Membership",
             "membership_description": "Access to gym and unlimited group classes",
-            "membership_price": 129,
+            "membership_price": 75,
             "membership_type": "gym",
             "count_of_training": 10,
-            "type": "group"
+            "type": "individual"
         },
         {
             "id": 2,
             "membership_name": "Premium Membership",
             "membership_description": "Access to gym and unlimited group classes",
-            "membership_price": 145,
+            "membership_price": 90,
             "membership_type": "gym",
             "count_of_training": 15,
             "type": "group"
@@ -70,7 +70,7 @@
         {
             "fitness_room_name": "Pilates",
             "id": 2,
-            "capacity": 15,
+            "capacity": 5,
             "date_of_day": "2025-06-06",
             "start_time": "14:00",
             "end_time": "15:30",
@@ -88,7 +88,7 @@
         {
             "fitness_room_name": "Zumba",
             "id": 4,
-            "capacity": 18,
+            "capacity": 4,
             "date_of_day": "2025-06-06",
             "start_time": "16:00",
             "end_time": "17:30",
